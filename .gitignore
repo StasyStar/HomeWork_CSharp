@@ -4,6 +4,9 @@
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
 # User-specific files
+hw_040923
+hw_110923
+home_work.sln
 *.rsuser
 *.suo
 *.user
