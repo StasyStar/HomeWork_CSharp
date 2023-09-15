@@ -16,7 +16,7 @@ void PrintArray(double[] arr)
         System.Console.Write($" {arr[i]} ");
     }
 }
-double SumMaxMin(double[] arr)
+double DiffMaxMin(double[] arr)
 {
     double max = arr[0];
     double min = arr[0];
@@ -27,11 +27,11 @@ double SumMaxMin(double[] arr)
         else if (arr[i] < min)
             min = arr[i];
     }
-    double sum = Math.Round(max + min, 2);
-    return sum;
+    double diff = Math.Round(max - min, 2);
+    return diff;
 }
 double[] arr = FillArray(5, 5, 9);
-double sumMaxMin = SumMaxMin(arr);
+double diffMaxMin = DiffMaxMin(arr);
 PrintArray(arr);
 System.Console.WriteLine("");
-System.Console.WriteLine($"Сумма минимального и максимального значения массия = {sumMaxMin}");
+System.Console.WriteLine($"Разница минимального и максимального значения массия = {diffMaxMin}");
