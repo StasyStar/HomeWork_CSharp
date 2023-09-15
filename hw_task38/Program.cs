@@ -34,4 +34,4 @@ double[] arr = FillArray(5, 5, 9);
 double diffMaxMin = DiffMaxMin(arr);
 PrintArray(arr);
 System.Console.WriteLine("");
-System.Console.WriteLine($"Разница минимального и максимального значения массия = {diffMaxMin}");
+System.Console.WriteLine($"Разница максимального и минимального значения массия = {diffMaxMin}");
